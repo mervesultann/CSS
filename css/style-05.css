@@ -1,0 +1,23 @@
+* {
+  color: chocolate;
+}
+
+p {
+}
+
+.highligth {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+.center {
+  text-align: center;
+}
+
+h1.center {
+  background-color: blueviolet;
+}
+
+#p1 {
+  text-align: justify;
+}
