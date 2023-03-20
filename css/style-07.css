@@ -1,0 +1,9 @@
+nav.main-menu {
+  background-color: rgb(182, 178, 178);
+  text-align: center;
+}
+
+.active {
+  background-color: rgb(32, 31, 31);
+  color: white;
+}

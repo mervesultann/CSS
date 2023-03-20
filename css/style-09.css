@@ -1,0 +1,13 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1.title {
+  text-decoration: line-through;
+
+  font-weight: 900;
+}
