@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul.liste {
+  background-color: rgb(221, 221, 213);
+  list-style-type: "✴️";
+
+  text-align: left;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(62, 61, 61);
+  color: aliceblue;
+}
+
+a:visited {
+  color: black;
+}
+li.liste1 {
+  padding: 8px;
+}
