@@ -1,0 +1,18 @@
+.title{
+
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 30px;
+    width: 300px;
+    
+}
+
+em{
+    background-color: brown;
+    display: block;
+}
+
+.hidden{
+
+    display: none;
+}

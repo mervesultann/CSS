@@ -1,0 +1,33 @@
+nav.menu ul {
+  margin: 0;
+  padding: 15px;
+  list-style-type: none;
+  background-color: antiquewhite;
+  display: none;
+}
+
+nav.menu button {
+  display: block;
+  background-color: rgb(193, 193, 200);
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+
+nav.menu button:hover {
+  background-color: black;
+  color: white;
+}
+
+nav.menu:hover ul {
+  display: inline-block;
+}
+
+nav.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav.menu ul li a:hover {
+  color: aqua;
+}
