@@ -1,0 +1,68 @@
+p.about::first-letter{
+
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+
+
+p.about::first-line{
+
+    color: red;
+}
+
+/*
+p.about::selection{
+
+    background-color: rgb(61, 41, 175);
+}
+*/
+
+::selection{
+
+    background-color: antiquewhite;
+}
+
+.list li::marker {
+
+    color:blue;
+    font-size: 2rem;
+}
+
+.title::before{
+
+    content: "";
+    display: inline-block;
+    color: red;
+    width: 5px;
+    height: 25px;
+    background-color: red;
+    margin-right: 10px;
+
+
+}
+
+.title::after{
+
+    content: "";
+    display: inline-block;
+    color: red;
+    width: 5px;
+    height: 25px;
+    background-color: red;
+    margin-left: 10px;
+}
+
+.about span::before{
+
+    content: "[ ";
+        color: red;
+        font-weight: bold;
+}
+
+.about span::after{
+
+    content: " ]";
+    color: red;
+    font-weight: bold;
+}

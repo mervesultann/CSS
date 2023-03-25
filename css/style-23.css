@@ -1,0 +1,57 @@
+
+.login-form input[type="text"]{
+
+    background-color: rgb(201, 224, 224);
+   
+    border: none;
+    padding: 5px 10px;
+}
+
+.login-form input[type="text"]:focus{
+
+    background-color: aqua;
+}
+
+
+.chk-menu:checked{
+
+    outline: 3px solid red;
+}
+
+
+ul.liste li:first-child{
+
+    font-weight: bold;
+}
+
+ul.liste li:last-child{
+
+    font-style: italic;
+}
+
+ul.liste li:nth-child(3){
+color: brown;
+}
+
+
+.price-list{
+
+    margin: auto;
+}
+
+table.price-list tr:nth-child(odd){
+
+    background-color: beige;
+}
+
+table.price-list tr:nth-child(even){
+
+    background-color: rgb(244, 244, 172);
+}
+
+
+table.price-list tr:nth-child(3n+1){
+
+    background-color: rgb(114, 161, 248);
+}
+

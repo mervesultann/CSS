@@ -13,8 +13,10 @@ section {
 }
 
 section div.card {
+    margin-top: 20px;
   padding: 30px;
-  transition: 0.3s;
+  transition: 0.5s;
+  border-radius: 20px;
 }
 
 section div.card a {
