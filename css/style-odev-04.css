@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+section {
+  width: 80%;
+  display: flex;
+  margin: 20px;
+}
+
+section div.card {
+  padding: 30px;
+  transition: 0.3s;
+}
+
+section div.card a {
+  text-decoration: none;
+
+  color: rgb(6, 6, 118);
+}
+
+section div img {
+  border-radius: 20px;
+}
+/*
+section div img:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}*/
+
+
+section div:hover {
+
+    transform: scale(1.1);
+    z-index: 2;
+    background-color: rgb(230, 72, 72);
+    color: rgb(225, 225, 233);
+
+}
+
+section div:hover a {
+  color: rgb(245, 238, 238);
+  text-decoration: underline;
+}
