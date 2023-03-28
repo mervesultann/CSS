@@ -1,0 +1,42 @@
+nav {
+  background-color: rgb(210, 139, 39);
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+nav.menu ul li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+nav.menu ul li:last-child::after {
+  content: "▶️";
+  display: inline-block;
+  width: 4rem;
+  color: rgb(15, 14, 14);
+}
+
+nav.menu ul li:first-child::before {
+  content: "◀️";
+  display: inline-block;
+  width: 4rem;
+  color: rgb(17, 16, 16);
+}
+
+nav.menu ul li::after {
+  display: inline-block;
+  content: " | ";
+  width: 1.5rem;
+}
+
+nav.menu ul li:hover a{
+  color: rgb(226, 23, 23);
+  cursor: pointer;
+}
+
+nav.menu ul li:nth-child(4) {
+  color: rgb(36, 34, 34);
+}

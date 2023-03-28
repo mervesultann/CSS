@@ -1,0 +1,45 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li:hover {
+    background-color: #f2f2f2;
+}
+
+li:active {
+    background-color: #d9d9d9;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #000;
+}
+
+li a:active {
+    color: #666;
+}
+
+li a:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    margin-right: 5px;
+}

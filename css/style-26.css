@@ -1,0 +1,32 @@
+nav.menu li {
+  color: rgb(233, 10, 76);
+}
+
+nav.menu > ul > li {
+  color: blueviolet;
+}
+
+nav.menu > ul ul > li {
+  color: rgb(25, 199, 39);
+}
+
+nav.menu ul ul li:last-child{
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav.menu +div+ p{
+
+    font-size: 1.5rem;
+}
+
+/* nav menüyle aynı hizada olması lazım*/
+nav.menu ~ p{
+    color: aqua;
+}
+
+nav.menu ul li:nth-child(3)~li{
+
+    color: black;
+}
