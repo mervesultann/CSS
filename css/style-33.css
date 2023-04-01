@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kutu-1 {
+  background-color: yellow;
+  flex: 2 0 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.kutu-1-1 {
+  background-color: rgb(36, 218, 72);
+  flex: 1;
+}
+
+.kutu-1-2{
+  background-color: rgb(160, 79, 24);
+  flex: 3;
+}
+
+.kutu-2 {
+  background-color: bisque;
+  flex: 1 0 50px;
+}
+
+.kutu-3 {
+  background-color: red;
+  flex: 2 0 150px;
+  display: flex;
+gap: 5px;
+align-items: flex-start;
+flex-wrap: wrap;
+align-content: flex-start;
+justify-content: space-around;
+}
+
+.kutu-3 > div{
+  background-color: blue;
+  flex: 0 0 30px;
+  padding: 20px;
+}
+

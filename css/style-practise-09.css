@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .logo h3 {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+header nav a {
+  margin: 20px;
+}
+
+header nav a i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+h1:hover {
+  color: rgba(0, 0, 255, 0.638);
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+main .leftSide {
+  display: flex;
+  flex-direction: column;
+}
+
+main .leftSide h1 {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+main .leftSide img {
+  width: 100%;
+  height: auto;
+}
+
+main .rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+main .rightSide img {
+  width: 100%;
+}
+
+main .rightSide ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}

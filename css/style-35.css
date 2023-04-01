@@ -1,0 +1,27 @@
+.title1{
+
+    border: 5px dotted blue;
+}
+
+.title2{
+
+    border-left: 5px solid red;
+     border-right: 5px solid red;
+     display: inline-block;
+}
+
+.title3{
+border: 3px solid orange;
+
+border-radius: 20px;
+text-align: center;
+
+}
+
+.title4{
+border: 3px solid orange;
+
+border-radius: 20px 0 20px 0;
+text-align: center;
+
+}

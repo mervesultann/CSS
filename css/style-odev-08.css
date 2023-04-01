@@ -1,0 +1,111 @@
+:root{
+
+ --color1: rgb(84, 88, 84);
+ --color2:white;
+ --color3:rgb(192, 192, 192);
+
+ --color4:rgb(232, 229, 229);
+ --color5: red;
+}
+
+body{
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+table.cart{
+
+  border: 1px solid grey;
+  background-color: rgb(219, 231, 235);
+padding: 10px;
+
+}
+
+
+table.cart > thead, tfoot{
+
+  background-color: var(--color1);
+  color:var(--color2);
+ 
+
+}
+
+table.cart th,td{
+  padding: 5px 20px;
+
+}
+
+table.cart tbody tr:nth-child(odd){
+
+  background-color: var(--color3);
+}
+
+table.cart tbody tr:nth-child(even){
+
+  background-color: var(--color4);
+}
+table.cart tbody>tr td:nth-child(1){
+  text-align: left;
+}
+
+table.cart tbody>tr td:nth-child(2){
+  text-align: left;
+}
+
+table.cart tbody>tr td:nth-child(3){
+  text-align: center;
+}
+
+table.cart tbody>tr td:nth-child(4){
+  text-align:right;
+}
+
+table.cart tbody>tr td:nth-child(5){
+  text-align:right;
+}
+
+table.cart tbody>tr td:last-child> i:first-child{
+
+  padding-right: 20px;
+}
+
+
+
+table.cart tfoot {
+  text-align:right;
+  text-transform: uppercase;
+}
+
+div.cash{
+  margin-top: 20px;
+  margin-left: 380px;
+}
+
+
+div.cash span{
+
+  background-color: var(--color5) ;
+  color: var(--color2);
+padding: 5px 8px;
+  margin-right: 10px;
+  
+  
+}
+
+
+div.cash span>i{
+
+  color: black;
+}
+
+div.cash span:hover{
+
+  
+  cursor: pointer;
+}
+
+div.cash span:hover label{
+color: black;
+  cursor: pointer;
+}
+

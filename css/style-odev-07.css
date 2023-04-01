@@ -1,0 +1,41 @@
+nav .chkbx:checked + .liste {
+  list-style-type: none;
+  display: block;
+  background-color: bisque;
+}
+
+nav.menu {
+  margin: 20px;
+}
+
+ul {
+  display: none;
+}
+
+nav.menu ul.liste li {
+  margin-bottom: 10px;
+}
+
+nav.menu ul.liste li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  padding: 0 10px;
+}
+
+nav.menu ul.liste li a:hover {
+  color: brown;
+}
+
+nav.menu {
+  display: inline-block;
+}
+
+nav.menu .chkbx {
+  display: none;
+}
+
+nav.menu ul.liste {
+  padding: 0;
+  margin: 0;
+}
