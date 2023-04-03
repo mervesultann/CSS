@@ -1,0 +1,24 @@
+
+  *{
+
+    box-sizing: border-box;
+}
+
+
+.box1{
+
+
+    width: 500px;
+    border: 5px solid red;
+    padding: 20px;
+    margin: 30px;
+}
+
+.box2{
+
+box-sizing: border-box;
+    width: 500px;
+    border: 5px solid rgb(27, 14, 126);
+    padding: 20px;
+    margin: 30px;
+}

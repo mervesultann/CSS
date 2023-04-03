@@ -1,0 +1,59 @@
+
+
+
+.bg{
+
+margin-bottom: 20px;
+padding: 50px;
+}
+
+
+
+.bg1{
+
+background-image: linear-gradient(green, blue);
+
+
+
+
+}
+
+
+.bg2{
+
+background-image: linear-gradient(rgb(128, 85, 0), black, rgb(136, 255, 0));
+
+
+}
+
+.bg3{
+
+    background-image: linear-gradient(to right, orange, yellow);
+}
+
+
+.bg4{
+
+    background-image: linear-gradient(50deg, rgb(88, 63, 15), rgb(64, 53, 124));
+}
+
+
+.bg5{
+
+    background-image: linear-gradient(to right, red 10%, blue);
+}
+
+.bg6{
+
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+}
+
+
+.bg7{
+
+
+    background-image: radial-gradient();
+}
